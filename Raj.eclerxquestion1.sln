@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32602.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eclerx.Mvc 2", "Eclerx.Mvc 2\Eclerx.Mvc 2.csproj", "{CFEA100E-CA5D-4C10-862E-0E091449926B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CFEA100E-CA5D-4C10-862E-0E091449926B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFEA100E-CA5D-4C10-862E-0E091449926B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFEA100E-CA5D-4C10-862E-0E091449926B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFEA100E-CA5D-4C10-862E-0E091449926B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D929E490-EC18-4627-8D6C-18B8AA0D8241}
+	EndGlobalSection
+EndGlobal

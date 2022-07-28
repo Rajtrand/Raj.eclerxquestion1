@@ -1,0 +1,28 @@
+﻿@model IEnumerable<Eclerx.Mvc_2.Models.StudentRegistration>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Student Registration</h2>
+<table class="table table-striped table-hover">
+    <tr>
+        <th>StudentId</th>
+        <th>UserId</th>
+        <th>Password</th>
+        <th>DateofBirth</th>
+        <th>MobileNo</th>      
+    </tr>
+    @foreach(var Lib in Model)
+     {
+        <tr>
+            <td>@Lib.StudentId</td>
+            <td>@Lib.UserId</td>
+            <td>@Lib.Password</td>
+            <td>@Lib.DateofBirth</td>
+            <td>@Lib.MobileNo</td>
+            
+        </tr>
+
+            }
+</table>
+
